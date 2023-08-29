@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    word-break:normal;
+    box-sizing: border-box;
+}
+.container{
+    display:grid;
+}
+.header{
+    padding: 60px 60px;
+    background-color: rgb(8, 146, 123);
+    text-align: center;
+    color: white;
+    justify-content: center;
+}
+.header p{
+    margin-top: 20px;
+}
+.link{
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    color: white;
+    background-color: rgb(48, 45, 41);
+    column-gap: 20px;
+    margin: 0px;
+}
+.link p{
+    padding: 20px 20px;
+    margin: 0px;
+}
+.grid{
+    display: flex;
+}
+.subHeader1{
+    display: flex;
+    width: 30%;
+    height: 100%;
+    flex-direction: column;
+    background-color: rgb(218, 206, 206);
+}
+.subHeader1 h2{
+    margin: 30px 30px ;
+}
+.link p:hover{
+    display: flex 70%;
+    background-color:rgb(218, 206, 206);
+}
+.img1{
+    background-color:rgb(106, 95, 95);
+    margin: 20px;
+    padding: 5% 5% 20%;
+}
+.img{
+    background-color:rgb(106, 95, 95);
+    margin: 20px;
+    padding: 5% 5% 8%;
+}
+.subHeader1 p{
+    margin-left: 21px;
+}
+h2{
+    margin-bottom: 10px !important;
+    margin-left: 21px !important;
+}
+.subHeader2{
+    display: flex ;
+    width: 70%;
+    height: 100%;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+}
+.subHeader2 h2{
+    margin: 30px 30px ;
+}
+.subHeader2 p{
+    margin-left: 21px;
+    margin-right: 10px;
+}
+.footer{
+    background-color: rgb(106, 95, 95);
+    padding: 10%;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align:center ;
+    margin-top: 20px;
+}
+/* CSS cho giao diện trên điện thoại di động */
+@media screen and (max-width: 600px) {
+.container, .link {   
+    flex-direction: column;
+}
+}
+.grid{
+    margin-right: 5px;
+}
+.header{
+    font-size: 20px;
+}
+h2{
+    font-size: 20px;
+}

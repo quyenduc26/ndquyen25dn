@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GG Form</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="https://kit.fontawesome.com/db4b1a165c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="account">
+            <form action="">
+                <h4>Account</h4>
+                <div class="infobox">
+                    <div class="icon"><i class="fa-solid fa-user"></i></div>
+                    <div class="input">
+                        <input type="text" placeholder="Full name">
+                    </div>
+                </div>
+                <div class="infobox">
+                    <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="input">
+                        <input type="text" placeholder="Email Address">
+                    </div>
+                </div>
+                <div class="infobox">
+                    <div class="icon"><i class="fa-solid fa-key"></i></div>
+                    <div class="input">
+                        <input type="text" placeholder="Password">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="dobngender">
+            <div class="dayofbirth">
+                <h4>Day of birth</h4>
+                <div class="daytime">
+                    <input type="number" placeholder="DD">
+                    <input type="number" placeholder="MM">
+                    <input type="number" placeholder="YYYY">
+                </div>
+            </div>
+            <div class="gender">
+                <h4>Gender</h4>
+                <div class="gd">
+                    <div class="male">Male</div>
+                    <div class="female">Female</div>
+                </div>
+            </div>
+        </div>
+        <div class="pay">
+            <h4>Payment Details</h4>
+            <div class="card">
+                <div class="payment">
+                    <input type="radio" value="credit" name="payment">
+                    <div class="check"><i class="fa-brands fa-cc-visa"></i> Credit Card</div>
+                </div>
+                <div class="payment">
+                    <input type="radio" value="credit" name="payment">
+                    <div class="check"><i class="fa-brands fa-cc-paypal"></i> Paypal</div>
+                </div>
+            </div>
+            <form action="">
+                <div class="infobox">
+                    <div class="icon"><i class="fa-regular fa-credit-card"></i></div>
+                    <div class="input">
+                        <input type="text" placeholder="Card Number">
+                    </div>
+                </div>
+                <div class="line">
+                    <div class="infobox">
+                        <div class="icon"><i class="fa-solid fa-user"></i></div>
+                        <div class="short">
+                            <input type="text" placeholder="Card Number">
+                        </div>
+                    </div>
+                    <div class="sub">
+                        <div class="time">01 Jan</div>
+                        <button><i class="fa-solid fa-caret-down"></i></button>
+                    </div>
+                    <div class="sub">
+                        <div class="time">2015</div>
+                        <button><i class="fa-solid fa-caret-down"></i></button>
+                    </div>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+</body>
+</html>

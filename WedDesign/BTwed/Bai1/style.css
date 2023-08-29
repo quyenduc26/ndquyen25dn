@@ -1,0 +1,37 @@
+table{
+    width:max-content;
+    height: max-content;
+    border: 2px soli black ;
+    border-collapse: collapse;
+    background-color: brown;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+th{
+    background-color: blanchedalmond;
+    color: black;
+    text-align: center; 
+    width: 200px;
+}
+tr{
+    text-align: center;
+}
+tbody tr:hover{
+background-color:rgb(221, 150, 150);
+cursor:pointer;
+}
+img{
+    width:40%;
+    height: auto;
+}
+#dong1{
+    background-color: orangered;
+}
+#dong2{
+    background-color: pink;
+}
+#dong3{
+    background-color: gray;
+}
+

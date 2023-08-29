@@ -1,0 +1,26 @@
+:root{
+    --text-color: blue;
+}
+h1{
+    color: var(--text-color);
+    background-color:bisque;
+    font-family: 'Times New Roman', Times, serif;
+}
+.block {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align: center;  
+}
+.box1{
+    background-color: aqua;
+    padding: 5%;
+    border: 1px dashed;
+}
+.box2{
+    background-color: bisque;
+    padding: 10px 20px 15px 10px ;
+    margin: 10px;
+}

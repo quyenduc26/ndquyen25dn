@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h4{
+    color: rgb(6, 177, 6);
+}
+.container{
+    margin: 0px 30%;
+    padding: 20px;
+    width: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.account{
+    width: 450px;
+    flex: 40%;
+
+}
+.infobox{
+    display: flex;
+    padding: 10px 0px;
+}
+.icon{
+    display: flex;
+    width: 50px;
+    height: 45px;
+    border: 1px solid black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    align-items: center; 
+    justify-content: center;
+    background-color: rgb(235, 232, 232);
+}
+.input{
+    width: 100%;
+    height: 45px;
+}
+input[type=text]{  
+    width: 98%;
+    height: 45px;
+    border: 1px solid black;
+    border-left: none;
+    background-color: rgb(235, 232, 232);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 0px 5px;
+}
+.dobngender{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.dayofbirth{
+    width: 50%;
+}
+.daytime{
+    display: flex;
+    gap: 10px;
+    padding: 10px 0px;
+}
+input[type=number]{
+    width:22%;
+    height: 45px;
+    border: 1px solid black;
+    background-color: rgb(235, 232, 232);
+    padding: 0px 5px;
+    border-radius: 3px;
+}
+.gender{
+    width: 50%;
+}
+.gd{
+    display: flex;
+    padding: 10px 0px;
+}
+.male{
+    width:40%;
+    height: 45px;
+    border: 1px solid black;
+    background-color: rgb(235, 232, 232);
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    box-sizing: border-box;
+    padding-left: 8px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+.female{
+    width:40%;
+    height: 45px;
+    border: 1px solid black;
+    border-left: none;
+    background-color: rgb(235, 232, 232);
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    box-sizing: border-box;
+    padding-left: 8px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;    
+}
+.pay{
+    width: 450px;
+}
+.card{
+    display: flex;
+    width: 100%;
+    padding: 10px 0px;
+    white-space: pre;
+}
+.credit{
+    width:50%;
+    height: 45px;
+    border: 1px solid black;
+    background-color: rgb(235, 232, 232);
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    box-sizing: border-box;
+    padding-left: 8px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.paypal{
+    width:50%;
+    height: 45px;
+    border: 1px solid black;
+    border-left: none;
+    background-color: rgb(235, 232, 232);
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    box-sizing: border-box;
+    padding-left: 8px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:45px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(235, 232, 232);
+    border: 1px solid rgb(76, 74, 74) ;
+}
+.check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:45px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(235, 232, 232);
+    border: 1px solid rgb(76, 74, 74) ;
+}
+.payment{
+    position: relative;
+    display: block;
+    width: 50%;
+    bottom: 45px;
+    height: 60px;
+}
+input[type=radio]{
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 45px;
+    top: 54px;
+    left: 1px;
+}
+input[type=radio]:checked + .check {
+    background-color: rgb(6, 177, 6); 
+    color: white;
+}
+.male:hover,
+.female:hover{
+  background-color: rgb(6, 177, 6); 
+  color: white;
+}
+.line{
+    display: flex;
+    gap: 30px;
+}
+.line>.infobox{
+    width: 50%;
+}
+.time{
+    width: 199%;
+    display: flex;
+    height: 45px;
+    border: 1px solid black;
+    align-items: center; 
+    justify-content: center;
+    box-sizing: border-box;
+    padding-left: 8px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.sub{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+    
+}
+button{
+    width: 30px;
+    height: 45px;
+}
