@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100hv;
+    margin-top: 5px;
+}
+
+.title{
+    width: 98%;
+    height: 35px;
+    background-color: rgb(247, 163, 46);
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.item:hover, .price:hover, .quantity:hover, .total:hover{
+    background-color: rgb(21, 87, 180);
+}
+.item, .price, .quantity, .total{
+    height: 35px;
+    padding-top: 5px;
+}
+
+.item{
+    width: 40%;
+    padding-left: 25px;
+}
+
+.price, .number{
+    width: 10%;
+}
+
+.quantity, .add{
+    width: 20%;
+}
+
+.total, .sum {
+    width: 15%;
+}
+
+.product, li{
+    margin-top: 15px;
+}
+
+li{
+    display: flex;
+}
+
+.itemA{
+    width: 40%;
+    display: flex;
+}
+
+.itemA p, .number, .add, .sum, .icon{
+    margin: auto 0;
+}
+
+
+
+.sum{
+    color: rgb(225, 154, 47);
+}
+
+.input-qty{
+    width: 10%;
+}
+
+.minus, .plus{
+    width: 15px;
+}
+
+.icon{
+    color: rgb(217, 217, 215);
+    font-size: 25px;
+}
+
+.icon:hover{
+    color: red;
+}
+
