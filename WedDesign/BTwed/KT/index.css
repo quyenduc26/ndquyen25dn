@@ -96,14 +96,14 @@
     align-items: center;
     border-right: none;
     background-color: #e0dbdb;
-
 }
 .input input[type=text]{
     width: 200px;
     border: none;
     background-color: #e0dbdb;
     color: black;
-
+    outline: none;
+    padding: 0px 5px;
 }
 .glass{
     width: 25px;
