@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.nav div:first-child,.nav :last-child{
+    margin: 0px 13px;
+}
+li{
+    list-style-type: none;
+}
+#menu1{
+    position: relative;
+}
+.menu1_1{
+    display: none;
+    position: absolute;
+    left: -100px;
+    top:20px;
+}
+.menu1_1 li:hover{
+    background-color: yellow;
+    color: red;
+}
+#menu1:hover .menu1_1{
+    display: block;
+    width: 200px;
+    border: 2px solid black;
+    background-color: beige;
+    border-radius: 10px;
+}
+.logo img{
+    width: 100px;
+    height: 30px;
+}
+.search{
+    height: 30px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    padding-top: .8px;
+}
+.search span{
+    border-right: 1px solid black;
+    padding: 0px 5px 0px 5px;
+}
+.search i{
+    padding: 5px;
+    border-radius: 100%;
+    border: 1px solid black;
+    background-color: red;
+}
+.sign1{
+    height: 30px;
+    display: flex;
+    padding-right: 10px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    border:  1px solid black;
+    padding-right: 2px;
+}
+.sign1 span,i{
+    padding-top: 6px; 
+}
+.sign1_1{
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: azure;
+    padding-left: 5px;
+}
+.cetory{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    margin-top: 20px;
+    border-bottom:  1px solid rgb(95, 105, 116);
+    
+}
+.cetory>div:first-child{
+    margin-left: 30px;
+}
+.cetory div>span{
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-bottom: 2px solid black;
+}
+.icon_menu{
+    justify-self: center;
+    align-items: center;
+}
+.cetory>div{
+    opacity: .6;
+    cursor: pointer;
+}
+.cetory>div:last-child{
+    opacity: 1;
+}
+.cetory>div:hover{
+    opacity: 1;
+    text-decoration:underline 2px solid black;
+}
+.cetory div>img{
+    width: 24px;
+    height: 24px;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+.container2 div{
+    position: relative;
+    top: 30px;
+    width: 270px;
+}
+.container2>div>img{
+    width: 270px;
+    height: 230px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.container2>div>p{
+    text-align: justify;
+    margin: 5px;
+    opacity: .7;
+}
+.container2>div:first-child>i{
+    position: relative;
+    color: red;
+    left:230px ;
+    top: 30px;
+    z-index: 1;
+    cursor: pointer;
+}
+.container2 div>i{
+    position: relative;
+    color: red;
+    left:230px ;
+    top: 30px;
+    z-index: 1;
+    cursor: pointer;
+}
+div h3{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media  screen and (max-width: 376px ) {
+    .container1{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .nav{
+        padding-top: 10px;
+        width: 100%;
+        height: 70px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: none;
+    }
+    .cetory>div:first-child{
+        margin-left: 10px;
+    }
+    
+    .span{
+        width: 100px;
+        display: none;
+    }
+    *::-webkit-scrollbar {
+        display: none; /* cho Chrome, Safari, and Opera */
+    }
+    .cetory{
+        padding-top: 20px;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        flex: 1;
+        gap: 20px;
+        margin-top: 40px;
+        border-bottom:  none;
+        overflow: scroll;
+    }
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        column-gap: 20px;
+    }
+    
+}
