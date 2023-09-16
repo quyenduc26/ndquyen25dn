@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Diem.css">
+</head>
+<body>
+    <div class="container">
+        <div class="bdi">
+            <h1>BANG DIEM CUA EM</h1>
+        </div>
+        <div class="semester1">
+            <h4 class="semester-1">Semester 1 : <input type="number" id="smt1"> </h4>
+        </div>
+        <div class="semester2">
+            <h4 class="semester-2">Semester 2 : <input type="number" id="smt2"> </h4>
+        </div>
+        <div class="year">
+            <div class="tittle"><h4 style="margin: 0">Year  : </h4></div>
+            <div class="select">
+                <select name="year" id="select">
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
+        </div>
+        <div class="sum">
+            <h4>Summarise: <input type="text" id="sum" disabled="true"> </h4>
+        </div>
+        <div class="rate">
+            <p id="rate"></p>
+        </div>
+        <div class="action">
+            <button id="yes" onclick="Calculate()">OK</button>
+            <button id="cancel" onclick="Stop()">Cancel</button>
+        </div>
+        <script src="Diem.js"></script>
+    </div>
+</body>
+</html>

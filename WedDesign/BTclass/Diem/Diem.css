@@ -1,0 +1,12 @@
+.container{
+    margin: 0px 500px;
+}
+.year{
+    display: flex;
+    gap: 45px;
+}
+.action{
+    display: flex;
+    gap: 20px;
+    margin: 0px 70px;
+}

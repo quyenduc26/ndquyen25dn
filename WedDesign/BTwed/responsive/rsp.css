@@ -43,7 +43,7 @@
     width: 100%;
 }
 
-@media  screen and (max-width: 414px) {
+@media  screen and (max-width: 414 px) {
     .content{
         display: grid;
         grid-template-columns: 100%;
