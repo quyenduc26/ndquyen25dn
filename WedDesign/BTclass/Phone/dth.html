@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/bootstrap-5.3.1-dist/bootstrap.min.css" rel="stylesheet">
+    <script src="/bootstrap-5.3.1-dist/bootstrap.bundle.min.js"></script>
+    <script src="dth.js"></script>
+</head>
+<body>
+  <h1 class="text-center p-3">Duc Quyen Mobile</h1>
+  <div class="container-fluid p-2">
+    <div class="row">
+        <p class="col-lg-4 m-0 p-0 text-center">
+          Product name: 
+          <input type="text" id="name">
+        </p>
+        <p class="col-lg-4 m-0 p-0">
+          Product picture: 
+          <input type="file" id="image">
+        </p>
+        <p class="col-lg-4">
+          Product price: 
+          <input type="text" id="price">
+        </p>
+    </div>
+    <div class="row text-center d-flex justify-content-center p-2">
+      <button class="btn btn-primary col-1" onclick="Add()">Add</button>
+    </div>
+    <div class="row border-bottom m-2">
+      <h2>Điện thoại nổi bật</h2>
+    </div>
+    <div class="row m-2 pt-3" id="products">
+    </div>
+  </div>
+</body>
+</html>
