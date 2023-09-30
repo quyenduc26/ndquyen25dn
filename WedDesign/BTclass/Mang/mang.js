@@ -1,5 +1,5 @@
 function remove(){
-    localStorage.removeItem('listProduct');
+    localStorage.removeItem('data');
 }
 
 
